@@ -9,18 +9,33 @@ h1{
     font-family:verdana;
 }
 
+label{
+	display: block;
+	float: left;
+	width: 150px;
+}
+
+footer{
+	text-align: center;
+}
+
 .maindiv{
     margin:auto;
     position: relative;
     background-color:white;
     color:black;
-    width:300px;
+    width:480px;
     padding:20px;
     border-radius:25px;
 }
 
+.input{
+	margin-bottom: 0.4cm;
+	margin-left: 15%;
+}
+
 .button {
-    margin:auto;
+    margin-left: 35%;
 	background-color:#44c767;
 	border-radius:21px;
 	border:1px solid #18ab29;
